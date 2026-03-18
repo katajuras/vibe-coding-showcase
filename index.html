@@ -33,7 +33,7 @@
     overflow-x: hidden;
   }
 
-  /* NAV */
+ /* NAV */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
@@ -46,16 +46,13 @@
   .nav-logo { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); text-decoration: none; }
   .nav-logo span { color: var(--red); }
   .nav-badge {
-    font-size: clamp(9px, 1.2vw, 11px); font-weight: 600; letter-spacing: 0.08em;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--red); background: var(--red-light);
-    padding: clamp(4px, 0.8vw, 6px) clamp(8px, 1.5vw, 16px); border-radius: 99px;
+    padding: 6px 16px; border-radius: 99px;
     border: 1px solid rgba(216,38,44,0.25);
-    white-space: nowrap;
   }
-  .nav-logo img {
-    height: clamp(20px, 3.5vw, 28px);
-
+ 
   /* HERO */
   .hero {
     min-height: 100vh;
