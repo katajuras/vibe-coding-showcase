@@ -43,9 +43,10 @@
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
   }
-  .nav-logo { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); text-decoration: none; }
+  .nav-logo { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); text-decoration: none; flex-shrink: 0; }
+  nav { gap: clamp(8px, 2vw, 24px); }
   .nav-logo span { color: var(--red); }
-  .nav-logo img { height: clamp(18px, 3vw, 28px); }
+  .nav-logo img { height: clamp(18px, 3vw, 28px); display: block; }
   .nav-badge {
     font-size: clamp(9px, 1.2vw, 11px); font-weight: 600; letter-spacing: 0.06em;
     text-transform: uppercase;
